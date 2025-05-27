@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manesh P - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Manesh P</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-6">
+                    <div class="profile-img-container">
+                        <!-- Add your profile picture in the images folder -->
+                        <img src="images/profile.jpg" alt="Manesh P" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1>Hi, I'm Manesh P</h1>
+                    <h2>Full Stack Java Developer</h2>
+                    <p class="lead">Passionate about creating efficient and scalable web applications</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/manesh-p-46a933282" target="_blank" class="btn btn-outline-primary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:maneshpothumudi@gmail.com" class="btn btn-outline-primary">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>I am a Full Stack Java Developer from Hyderabad, Telangana. Currently pursuing my Master's in Computer Applications (MCA), I am passionate about creating robust web applications and solving complex problems through code.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h4>Master of Computer Applications (MCA)</h4>
+                    <p>Currently Pursuing</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Bachelor of Commerce and Computer Applications</h4>
+                    <p>Don Bosco Degree College</p>
+                    <p>CGPA: 7.62</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Intermediate (12th)</h4>
+                    <p>Sri Chaitanya College</p>
+                    <p>Percentage: 68%</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>SSC (10th)</h4>
+                    <p>CGPA: 7.5</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h3>Programming & Web Technologies</h3>
+                        <ul class="skill-list">
+                            <li><i class="fab fa-java"></i> Java</li>
+                            <li><i class="fab fa-html5"></i> HTML</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-database"></i> SQL</li>
+                            <li><i class="fab fa-github"></i> GitHub</li>
+                            <li><i class="fas fa-code"></i> Hibernate</li>
+                            <li><i class="fas fa-server"></i> Servlets</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3>Student Management System</h3>
+                        <p class="project-tech">Technologies: Java, Hibernate</p>
+                        <p>A comprehensive student management system developed using Java and Hibernate framework. The project includes features for managing student records, course enrollment, and academic performance tracking.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <h3>Web Application Mini Project</h3>
+                        <p class="project-tech">Technologies: Java Servlets, HTML, CSS</p>
+                        <p>A web-based application developed using Java Servlets technology. The project demonstrates core web development concepts and includes user authentication, data management, and responsive design.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> <a href="tel:6302799134">+91 6302799134</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:maneshpothumudi@gmail.com">maneshpothumudi@gmail.com</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana</p>
+                        <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/manesh-p-46a933282" target="_blank">LinkedIn Profile</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-orange">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Manesh P. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
